@@ -1,0 +1,7 @@
+pypresence>=4.6
+winrt-runtime; sys_platform == "win32"
+winrt-Windows.Media.Control; sys_platform == "win32"
+winrt-Windows.Foundation; sys_platform == "win32"
+pystray; sys_platform == "win32"
+pillow; sys_platform == "win32"
+dbus-fast; sys_platform == "linux"

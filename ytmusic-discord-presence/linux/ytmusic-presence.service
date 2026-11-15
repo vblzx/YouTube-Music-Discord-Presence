@@ -1,0 +1,10 @@
+[Unit]
+Description=Show YouTube Music as your Discord status
+
+[Service]
+ExecStart=%h/.local/share/ytmusic-presence/.venv/bin/python %h/.local/share/ytmusic-presence/main.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
